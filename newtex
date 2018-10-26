@@ -12,6 +12,6 @@ if [ -z "$name" ]; then
 fi
 
 mkdir $name
-cp -r $TEX_TEMPLATE/ $name/
+cp -r $TEX_TEMPLATE/* $name/
 cd $name
 mv *.tex $name.tex
